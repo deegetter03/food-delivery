@@ -2,11 +2,12 @@
 #navbar {
     flex-direction: column;
 }
+
 #navbar ul li a{
     font-size: 1rem;
     padding: 0px 7px;
-    /* padding-bottom: 6px; */
 }
+
 /* Home section */
 #home{
     height: 500px; 
@@ -16,6 +17,7 @@
 #home::before{
     height: 480px; 
 }
+
 #home p{
     font-size: 19px;
 }
@@ -24,6 +26,7 @@
 #services{
     flex-direction: column;
 }
+
 #services .box { 
     padding: 14px;
     margin: 2px 0px; 
@@ -34,6 +37,7 @@
 #clients{
     flex-wrap: wrap;
 }
+
 #clients img{
     width: 66px;
     padding: 6px;
@@ -44,10 +48,12 @@
 #contact-box form{
     width:60%;
 }
+
 /* Utility classes */
 .primary{
     font-size:36px;
 }
+
 .btn{
     font-size: 15px;
     padding: 8px 12px;
